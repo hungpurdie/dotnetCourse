@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BasicWinform.Entities
+namespace DotNetCourse.Entities
 {
     public class Person
     {
@@ -41,6 +41,8 @@ namespace BasicWinform.Entities
             }
         }
 
+        public string IdFaculty { get; set; }
+
         /// <summary>
         /// Lấy toàn bộ danh sách sinh viên trong CSDL
         /// (MockData)
@@ -56,20 +58,29 @@ namespace BasicWinform.Entities
                 Id = "1",
                 FirstName = "Nguyễn",
                 LastName = "Văn A",
-                DOB = new DateTime(2000, 2, 2),
+                DOB = new DateTime(2000, 12, 2),
                 HomeTown = "Thừa Thiên Huế",
-                Sex = EGioiTinh.Nam
+                Sex = EGioiTinh.Nam,
+                IdFaculty = "1"
             });
             ls.Add(new Person
             {
                 Id = "2",
-                FirstName = "Trần",
+                FirstName = "Nguyễn",
                 LastName = "Thị B",
-                DOB = new DateTime(2000, 5, 6),
+                DOB = new DateTime(2000, 6, 16),
                 HomeTown = "Đà Nẵng",
-                Sex = EGioiTinh.Nu
+                Sex = EGioiTinh.Nu,
+                IdFaculty = "2"
             });
             return ls;
+        }
+
+        public static List<Person> GetList(string idFaculty)
+        {
+            var ls = GetList();
+            var rs = ls.Where(e => e.IdFaculty == idFaculty).ToList();
+            return rs;
         }
         /// <summary>
         /// Lấy một sinh viên từ CSDL

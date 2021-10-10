@@ -32,6 +32,26 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,12 +66,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Faculty.cs" />
     <Compile Include="Entities\Person.cs" />
     <Compile Include="frmCaculator.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCaculator.Designer.cs">
       <DependentUpon>frmCaculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClassroom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClassroom.Designer.cs">
+      <DependentUpon>frmClassroom.cs</DependentUpon>
     </Compile>
     <Compile Include="frmManager.cs">
       <SubType>Form</SubType>
@@ -69,6 +96,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmCaculator.resx">
       <DependentUpon>frmCaculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClassroom.resx">
+      <DependentUpon>frmClassroom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmManager.resx">
       <DependentUpon>frmManager.cs</DependentUpon>

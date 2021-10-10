@@ -180,7 +180,7 @@
             // 
             // personBindingSource
             // 
-            this.personBindingSource.DataSource = typeof(BasicWinform.Entities.Person);
+            this.personBindingSource.DataSource = typeof(DotNetCourse.Entities.Person);
             // 
             // frmManager
             // 

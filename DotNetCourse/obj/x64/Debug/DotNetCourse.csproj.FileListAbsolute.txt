@@ -1,0 +1,14 @@
+D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.csproj.AssemblyReference.cache
+D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.csproj.SuggestedBindingRedirects.cache
+D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.frmCaculator.resources
+D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.frmClassroom.resources
+D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.frmManager.resources
+D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.frmUser.resources
+D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.Properties.Resources.resources
+D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.csproj.GenerateResource.cache
+D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.csproj.CoreCompileInputs.cache
+D:\Development\DotNetCourse\DotNetCourse\bin\x64\Debug\DotNetCourse.exe.config
+D:\Development\DotNetCourse\DotNetCourse\bin\x64\Debug\DotNetCourse.exe
+D:\Development\DotNetCourse\DotNetCourse\bin\x64\Debug\DotNetCourse.pdb
+D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.exe
+D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.pdb

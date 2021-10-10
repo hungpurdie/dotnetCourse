@@ -1,14 +1,7 @@
-﻿using BasicWinform.Entities;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
 
+using DotNetCourse.Entities;
 namespace DotNetCourse
 {
     public partial class frmUser : Form
@@ -39,7 +32,7 @@ namespace DotNetCourse
         private void frmUser_Load(object sender, EventArgs e)
         {
             ColorDialog colorDlg = new ColorDialog();
-                if(colorDlg.ShowDialog() == DialogResult.OK)
+            if (colorDlg.ShowDialog() == DialogResult.OK)
             {
                 Properties.Settings.Default.FormBackGroudUser = colorDlg.Color;
                 Properties.Settings.Default.Save();
