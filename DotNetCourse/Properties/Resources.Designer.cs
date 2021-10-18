@@ -63,6 +63,16 @@ namespace DotNetCourse.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _abstract {
+            get {
+                object obj = ResourceManager.GetObject("abstract", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap add {
             get {
                 object obj = ResourceManager.GetObject("add", resourceCulture);
@@ -106,16 +116,6 @@ namespace DotNetCourse.Properties {
         internal static System.Drawing.Bitmap myavatar {
             get {
                 object obj = ResourceManager.GetObject("myavatar", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap myavatar1 {
-            get {
-                object obj = ResourceManager.GetObject("myavatar1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -13,7 +13,7 @@ namespace DotNetCourse
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmClassroom());
+            Application.Run(new frmCountDown());
         }
     }
 }
