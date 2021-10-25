@@ -86,6 +86,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmBackgroundWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBackgroundWorker.Designer.cs">
+      <DependentUpon>frmBackgroundWorker.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entities\Faculty.cs" />
     <Compile Include="Entities\Person.cs" />
     <Compile Include="frmCaculator.cs">
@@ -126,6 +132,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBackgroundWorker.resx">
+      <DependentUpon>frmBackgroundWorker.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCaculator.resx">
       <DependentUpon>frmCaculator.cs</DependentUpon>
     </EmbeddedResource>
@@ -207,6 +216,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spinner-1s-200px.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -18,3 +18,5 @@ D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.csproj.Gener
 D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.csproj.CoreCompileInputs.cache
 D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.exe
 D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.pdb
+D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.csproj.AssemblyReference.cache
+D:\Development\DotNetCourse\DotNetCourse\obj\x64\Debug\DotNetCourse.frmBackgroundWorker.resources
